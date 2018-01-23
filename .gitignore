@@ -49,4 +49,5 @@ Temporary Items
 .idea/workspace.xml
 *.bin
 *.bin
-.gradle/4.1/fileHashes/fileHashes.bin
+.gradle/4.1
+.idea/workspace.xml
