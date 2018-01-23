@@ -1,0 +1,49 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context="ru.valentin.falinv22.minionstest.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+
+        <ImageView
+            android:id="@+id/fragment_start_menu_logo"
+            android:layout_width="340dp"
+            android:layout_height="110dp"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/min_logo" />
+
+        <TextView
+            android:id="@+id/fragment_start_menu_logo_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/fragment_start_menu_logo"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="@dimen/dimen_short_16dp"
+            android:layout_marginRight="@dimen/dimen_short_16dp"
+            android:layout_marginTop="@dimen/dimen_short_16dp"
+            android:gravity="center"
+            android:text="@string/fragment_start_menu_logo_text"
+            android:textColor="@color/colorDarkBlack"
+            android:textSize="@dimen/dimen_text_short_32sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/fragment_start_menu_button"
+            android:layout_width="210dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/fragment_start_menu_logo_text"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="160dp"
+            android:background="@drawable/rectangle_rounded_all"
+            android:elevation="5dp"
+            android:text="@string/fragment_start_menu_button_text"
+            android:textColor="@color/colorYellow"
+            android:textSize="@dimen/dimen_text_short_24sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+</RelativeLayout>
