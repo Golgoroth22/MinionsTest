@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">MinionsTest</string>
+
+    <!-- Start Menu Fragment -->
+    <string name="fragment_start_menu_logo_text">На кого из миньонов ты больше всего похож?</string>
+    <string name="fragment_start_menu_button_text">Пройти тест!</string>
 </resources>
