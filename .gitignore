@@ -47,3 +47,6 @@ Temporary Items
 .apdisk
 .idea/workspace.xml
 .idea/workspace.xml
+*.bin
+*.bin
+.gradle/4.1/fileHashes/fileHashes.bin
